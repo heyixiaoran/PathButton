@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathButton", "PathButton\PathButton.csproj", "{2C60A4A0-D10B-4298-8936-F7075B63BB15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathButtonDemo", "PathButtonDemo\PathButtonDemo.csproj", "{12AC6CB6-9557-453F-BA46-1AD598253040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C60A4A0-D10B-4298-8936-F7075B63BB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C60A4A0-D10B-4298-8936-F7075B63BB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C60A4A0-D10B-4298-8936-F7075B63BB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C60A4A0-D10B-4298-8936-F7075B63BB15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12AC6CB6-9557-453F-BA46-1AD598253040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12AC6CB6-9557-453F-BA46-1AD598253040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12AC6CB6-9557-453F-BA46-1AD598253040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12AC6CB6-9557-453F-BA46-1AD598253040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
