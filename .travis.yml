@@ -1,0 +1,11 @@
+language: csharp
+solution: PathButton.sln
+
+mono:
+  - latest
+
+install:
+  - nuget restore PathButton.sln
+
+script:
+  - xbuild /p:Configuration=Release PathButton.sln
