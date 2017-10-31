@@ -3,7 +3,8 @@ sudo: false
 dist: trusty
 solution: PathButton.sln
 
-mono: none
+mono: 
+ - latest
 
 install:
   - nuget restore PathButton.sln
