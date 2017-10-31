@@ -2,7 +2,7 @@ language: csharp
 solution: PathButton.sln
 
 mono:
-  - latest
+  - none
 
 install:
   - nuget restore PathButton.sln
