@@ -1,8 +1,9 @@
 language: csharp
+sudo: false
+dist: trusty
 solution: PathButton.sln
 
-mono:
-  - none
+mono: none
 
 install:
   - nuget restore PathButton.sln
