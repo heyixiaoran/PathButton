@@ -26,3 +26,32 @@ artifacts:
 
   name: PathButton
 
+deploy:
+
+- provider: GitHub
+
+  auth_token:
+
+    secure: yK4VOGxXgWB8YeFgDqIrkgyxGIeHdX9y7zxzvCoG+0FdYmTE1zq8W+RRfc64RFSA
+
+  draft: true
+
+  force_update: true
+
+  on:
+
+    branch: master
+
+notifications:
+
+- provider: Email
+
+  to:
+
+  - heyixiaoran@vip.qq.com
+
+  on_build_success: false
+
+  on_build_failure: true
+
+  on_build_status_changed: false
