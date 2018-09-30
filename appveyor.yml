@@ -34,7 +34,7 @@ deploy:
 
     secure: yK4VOGxXgWB8YeFgDqIrkgyxGIeHdX9y7zxzvCoG+0FdYmTE1zq8W+RRfc64RFSA
 
-  draft: true
+  draft: false
 
   force_update: true
 
